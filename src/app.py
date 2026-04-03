@@ -1,8 +1,8 @@
+import streamlit as st
 import os
 os.environ["SPOTIFY_CLIENT_ID"] = st.secrets["SPOTIFY_CLIENT_ID"]
 os.environ["SPOTIFY_CLIENT_SECRET"] = st.secrets["SPOTIFY_CLIENT_SECRET"]
 os.environ["SPOTIFY_REDIRECT_URI"] = st.secrets["SPOTIFY_REDIRECT_URI"]
-import streamlit as st
 from emotion_model import detect_emotion
 from recommender import get_recommendations
 
