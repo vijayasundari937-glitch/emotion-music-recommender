@@ -16,6 +16,7 @@ st.set_page_config(
 # Header
 st.title("🎵 Emotion-Aware Music Recommender")
 st.markdown("Tell me how you feel and I'll find the perfect songs for you.")
+st.caption("🌍 Supports English, Tamil, Malayalam, Hindi, Spanish and 100+ languages")
 st.divider()
 
 # Emotion icons
